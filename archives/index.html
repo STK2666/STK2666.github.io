@@ -1,537 +1,403 @@
 <!DOCTYPE html>
-<html lang="zh-Hans">
+<html lang="zh-Hans" color-mode="light">
 
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="x5-fullscreen" content="true">
-<meta name="full-screen" content="yes">
-<meta name="theme-color" content="#317EFB" />
-<meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=0" name="viewport">
-<meta name="description" content="Je pense, donc je suis">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Stk&#39;s Blog">
-<meta property="og:url" content="https://stk2666.github.io/archives/index.html">
-<meta property="og:site_name" content="Stk&#39;s Blog">
-<meta property="og:description" content="Je pense, donc je suis">
-<meta property="og:locale">
-<meta property="article:author" content="Shi Tongkai">
-<meta name="twitter:card" content="summary">
-
-
-<title >Stk's Blog</title>
-
-<!-- Favicon -->
-
-    <link href='/img/favicon.svg?v=1.1.1' rel='icon' type='image/png' sizes='16x16' ></link>
-
-
-    <link href='/img/favicon.svg?v=1.1.1' rel='icon' type='image/png' sizes='32x32' ></link>
-
-
-
-
-<!-- Plugin -->
-
-
-
-
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="Shi Tongkai" />
+  <meta name="description" content="Je pense, donc je suis" />
+  
+  
+  <title>
     
-<link rel="stylesheet" href="/css/plugins/bootstrap.row.css">
-
+      Archives 
+      
+      
+      |
     
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
+     Stk&#39;s Blog
+  </title>
 
-    
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+  
+    <link rel="apple-touch-icon" href="/images/yellow.png">
+    <link rel="icon" href="/images/yellow.png">
+  
 
+  <!-- Raleway-Font -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 
-    
+  <!-- hexo site css -->
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_1886449_67xjft27j1l.css" />
+  <!-- 代码块风格 -->
+  
 
-    
+  <!-- jquery3.3.1 -->
+  
+    <script defer type="text/javascript" src="/plugins/jquery.min.js"></script>
+  
 
-
-
-<!-- Icon -->
-
-    
-<link rel="stylesheet" href="/css/plugins/font-awesome.min.css">
-
-
-
-
-<!-- Variable -->
-<script>window.ASYNC_CONFIG = {"hostname":"stk2666.github.io","author":"Shi Tongkai","root":"/","typed_text":"","favicon":{"logo":"/img/favicon.svg","icon16":"/img/favicon.svg","icon32":"/img/favicon.svg","appleTouchIcon":null,"webmanifest":null,"visibilitychange":false,"hidden":"/failure.ico","showText":"(/≧▽≦/)咦！又好了！","hideText":"(●—●)喔哟，崩溃啦！"},"theme_version":"1.1.1","theme":{"switch":true,"default":"style-light"},"search":{"enable":false,"type":"engine","href":"https://www.google.com/search?q=site:","domain":null,"path":"search.xml"},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）","author":"本文作者：","copyright_link":"本文链接：","copyright_license_title":"版权声明：","copyright_license_content":"本博客所有文章除特别声明外，均默认采用 undefined 许可协议。"},"creative_commons":{"license":"by-nc-sa","language":"deed.zh","post":false,"clipboard":false},"swup":false};</script>
-
-<!-- Theme mode css -->
-
-    <link data-swup-theme="style-light" rel="stylesheet" href="/css/style-light.css?v=1.1.1" id="trm-switch-style">
-    <link data-swup-theme="style-dark" rel="stylesheet" href="/css/style-dark.css?v=1.1.1" id="trm-switch-style">
-    <script>
-        let defaultMode = ASYNC_CONFIG.theme.default !=='auto' ?  ASYNC_CONFIG.theme.default : (window.matchMedia("(prefers-color-scheme: light)").matches ? 'style-light' : 'style-dark')
-        let catchMode = localStorage.getItem('theme-mode') || defaultMode;
-        let themeMode = catchMode === 'style-dark' ? 'style-light' : 'style-dark';
-        let linkdom = document.querySelector('[data-swup-theme='+themeMode+']');
-        if(linkdom) linkdom.remove();
-    </script>
+  <!-- fancybox -->
+  
+    <link href="/plugins/jquery.fancybox.min.css" rel="stylesheet">
+    <script defer type="text/javascript" src="/plugins/jquery.fancybox.min.js"></script>
+  
+  
+<script src="/js/fancybox.js"></script>
 
 
-<!-- CDN -->
+  
 
+  
 
-    
-
-    
-
-
-
-<!-- Site Analytics -->
- 
+  <script>
+    var html = document.documentElement
+    const colorMode = localStorage.getItem('color-mode')
+    if (colorMode) {
+      document.documentElement.setAttribute('color-mode', colorMode)
+    }
+  </script>
 <meta name="generator" content="Hexo 5.4.2"></head>
 
-<body>
 
-  <!-- app wrapper -->
-  <div class="trm-app-frame">
-
-    <!-- page preloader -->
-    <div class="trm-preloader">
-    <div class="trm-holder">
-        <div class="preloader">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-</div>
-    <!-- page preloader end -->
-
-    <!-- change mode preloader -->
-    <div class="trm-mode-swich-animation-frame">
-    <div class="trm-mode-swich-animation">
-        <i class="i-sun"><i class="far fa-sun"></i></i>
-        <div class="trm-horizon"></div>
-        <i class="i-moon"><i class="far fa-moon"></i></i>
-    </div>
-</div>
-    <!-- change mode preloader end -->
-
-      <!-- scroll container -->
-      <div id="trm-dynamic-content" class="trm-swup-animation">
-        <div id="trm-scroll-container" class="trm-scroll-container" data-scroll-container style="opacity: 0">
-          <div data-scroll-section id="content" class="trm-scroll-section">
-
-            <div class="locomotive-scroll__sticky-target" style=" position: absolute; top: 0; left: 0; right: 0; bottom: 0; pointer-events: none;"></div>
-
-            <!-- top bar -->
-            <header class="trm-top-bar" data-scroll data-scroll-sticky data-scroll-target=".locomotive-scroll__sticky-target" data-scroll-offset="-10">
-	<div class="container">
-		<div class="trm-left-side">
-			<!-- logo -->
-			<a href="/" class="trm-logo-frame trm-anima-link">
-				
-					<img src="/img/favicon.svg" alt="logo">
-				
-				
-					<div class="trm-logo-text">
-						石<span>同凯</span>
-					</div>
-				
-			</a>
-			<!-- logo end -->
-		</div>
-		<div class="trm-right-side">
-
-			<!-- menu -->
-			<div class="trm-menu">
-				<nav>
-					<ul>
-						
-						<li class="menu-item-has-children ">
-							<a  href="/" target="">
-								home
-							</a>
-							
-							<ul>
-								
-								<li>
-									<a  href="/archives2/" target="">
-										archives2
-									</a>
-								</li>
-								
-							</ul>
-							
-						</li>
-						
-						<li class="menu-item-has-children current-menu-item">
-							<a data-no-swup href="/archives/" target="">
-								archives
-							</a>
-							
-						</li>
-						
-					</ul>
-				</nav>
-			</div>
-			<!-- menu end -->
-			
-			<!-- mode switcher place -->
-			
-			<div class="trm-mode-switcher-place">
-				<!-- <div class="trm-hidden-switcher"> -->
-					<div class="trm-mode-switcher">
-					  <i class="far fa-sun"></i>
-					  <input class="tgl tgl-light" id="trm-swich" type="checkbox">
-					  <label class="trm-swich" for="trm-swich"></label>
-					  <i class="far fa-moon"></i>
-					</div>
-				  <!-- </div> -->
-			</div>
-			
-			<!-- mode switcher place end -->
-
-			 
-
-		</div>
-		<div class="trm-menu-btn">
-			<span></span>
-		</div>
-	</div>
-</header>
-            <!-- top bar end -->
-
-            <!-- body -->
-            <div class="trm-content-start">
-    <!-- banner -->
-    <div class="trm-banner" data-scroll data-scroll-direction="vertical">
-    
-    <!-- banner cover -->
-    <img src="/img/banner.png" alt="banner" class="trm-banner-cover" data-scroll data-scroll-direction="vertical" data-scroll-speed="-3">
-    <!-- banner cover end -->
-    
-
-    <!-- banner content -->
-    <div class="trm-banner-content trm-overlay">
-        <div class="container" data-scroll data-scroll-direction="vertical" data-scroll-speed="0">
-            <div class="row">
-                
-                <div class="col-lg-4"></div>
-                
-                <div class="col-lg-8">
-
-                    <!-- banner title -->
-                    <div class="trm-banner-text ">
-                        <div class="trm-label trm-mb-20">
-                            The article archive
-                        </div>
-                        <h1 class="trm-mb-30 trm-hsmb-font">
-                            云间连下榻，<br>天上接行杯。
-                        </h1>
-
-                        
-                            <ul class="trm-breadcrumbs trm-label">
-                                <li>
-                                    <a href="/" class="trm-anima-link">Home</a>
-                                </li>
-                                <li>
-                                    <span>
-                                        archives
-                                    </span
-                                ></li>
-                            </ul>
-                        
-                    </div>
-                    <!-- banner title end -->
-
-                    <!-- scroll hint -->
-                    <a href="#about-triger" data-scroll-to="#about-triger" data-scroll-offset="-130" class="trm-scroll-hint-frame">
-                        <div class="trm-scroll-hint"></div>
-                        <span class="trm-label">Scroll down</span>
-                    </a>
-                    <!-- scroll hint end -->
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- banner content end -->
-</div>
-    <!-- banner end -->
-    <div class="container">
-        <div class="row">
-            
-                <div class="col-lg-4 hidden-sm">
-                    <!-- main card -->
-                    <div class="trm-main-card-frame trm-sidebar">
-    <div class="trm-main-card" data-scroll data-scroll-repeat data-scroll-sticky data-scroll-target=".locomotive-scroll__sticky-target" data-scroll-offset="60"> 
-    
-        <!-- card header -->
-<div class="trm-mc-header">
-    <div class="trm-avatar-frame trm-mb-20"><img class="trm-avatar" src="/img/bullfighter.jpg" alt="Avatar"> </div>
-    <h5 class="trm-name trm-mb-15">
-        Shi Tongkai
-    </h5>
-    
-</div>
-<!-- card header end -->
-
-<!-- sidebar social -->
-<div class="trm-divider trm-mb-40 trm-mt-40"></div>
-
-<div class="trm-social">
-    
-        <a href="https://github.com/STK2666" title="github" rel="nofollow" target="_blank">
-            <i class="fab fa-github"></i>
-        </a>
-    
-        <a href="https://twitter.com" title="Twitter" rel="nofollow" target="_blank">
-            <i class="fab fa-twitter"></i>
-        </a>
-    
-</div>
-
-<!-- sidebar social end -->
-
-<!-- info -->
-<div class="trm-divider trm-mb-40 trm-mt-40"></div>
-<ul class="trm-table trm-mb-20">
-    
-        <li>
-            <div class="trm-label">
-                birthdate:
-            </div>
-            <div class="trm-label trm-label-light">
-                1999.11.16
-            </div>
-        </li>
-    
-        <li>
-            <div class="trm-label">
-                city:
-            </div>
-            <div class="trm-label trm-label-light">
-                Tianjin, China
-            </div>
-        </li>
-    
-        <li>
-            <div class="trm-label">
-                Age:
-            </div>
-            <div class="trm-label trm-label-light">
-                18
-            </div>
-        </li>
-    
-</ul>
-
-<!-- info end -->
-<div class="trm-divider trm-mb-40 trm-mt-40"></div>
-<!-- action button -->
-<div class="text-center">
-    <a href="mailto:shitongkai88@gmail.com" class="trm-btn">
-        联系我
-        <i class="far fa-envelope"></i>
+  <body>
+    <div id="app">
+      <div class="header">
+  <div class="avatar">
+    <a href="/">
+      <!-- 头像取消懒加载，添加no-lazy -->
+      
+        <img src="/images/yellow.png" alt="">
+      
     </a>
+    <div class="nickname"><a href="/">Tystnad.</a></div>
+  </div>
+  <div class="navbar">
+    <ul>
+      
+        <li class="nav-item" data-path="/">
+          <a href="/">Home</a>
+        </li>
+      
+        <li class="nav-item" data-path="/archives/">
+          <a href="/archives/">Archives</a>
+        </li>
+      
+        <li class="nav-item" data-path="/tags/">
+          <a href="/tags/">Tags</a>
+        </li>
+      
+        <li class="nav-item" data-path="/about/">
+          <a href="/about/">About</a>
+        </li>
+      
+    </ul>
+  </div>
 </div>
-<!-- action button end -->
 
+
+<script src="/js/activeNav.js"></script>
+
+
+
+      <div class="flex-container">
+        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
+
+<!-- last: 按年份把文章分组，当前遍历到的年份 -->
+<!-- now: 当前遍历到的文章的发布年份 -->
+
+<div class="container archives">
+  <div class="post-list">
     
-    </div>
-</div>
-                    <!-- main card end -->
-                </div>
-            
-            <div class="col-lg-8">
-                <div class="trm-content" id="trm-content">
-                    <div data-scroll data-scroll-repeat data-scroll-offset="500" id="about-triger"></div>
-
-                    <div class="row">
-    <div class="col-lg-12">
-        <div class="trm-card">
-            
-                <div style="padding: 0 20px;">
-                    <ul class="row trm-list" style="margin-bottom: 0px;"><li class="col-lg-4 trm-list-item" style="margin: 6px 0;"><a class="archive-list-link" href="/archives/2022/">2022</a><span class="archive-list-count">（1）</span></li></ul>
-                </div>
-            
-        </div>
-    </div>
-</div>
-
-<!-- history -->
-<div class="row">
-    <div class="col-lg-12">
-        <!-- title -->
-        <h5 class="trm-mb-40 trm-title-with-divider">
-            
-                所有归档
-            
-            <span data-number="01"></span>
-        </h5>
-    </div>
-    <div class="col-lg-12">
-        <!-- timeline -->
-        <div class="trm-timeline">
-            
-            <div class="trm-timeline-item trm-scroll-animation" data-scroll data-scroll-offset="40">
-                <div class="trm-timeline-mark-light"></div>
-                <div class="trm-timeline-mark"></div>
-                <div class="trm-a trm-timeline-content more">
-                    
-                        <div class="trm-card-header">
-                            <div class="trm-left-side">
-                                <h6>
-                                    <a href="/20221008-A%20tough%20beginning/" class="trm-anima-link">
-                                        
-                                    </a>
-                                </h6>
-                                <div class="trm-text-sm trm-accent-color trm-mt-15">
-                                    <ul class="trm-card-data trm-label ">
-                                        <li class="trm-accent-color">10/08</li>
-                                        <li class="trm-accent-color">12:48</li>
-                                        
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    
-                </div>
-            </div>
-            
-        </div>
-        <!-- timeline end -->
-    </div>
-</div>
-<!-- history end -->
-
-
-    <div class="trm-pagination">
-        <span class="page-number current">1</span>
-    </div>
-
-
-
-
-
-                    <div class="trm-divider trm-mb-40"></div>
-
-                    <!-- footer -->
-                    <footer class="trm-scroll-animation" data-scroll data-scroll-offset="50">
-
-    
-
-    
-
-    
-        <div class="trm-footer-item">
-            <span>
-                 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a>  v5.4.2
-            </span>
-            <span class="footer-separator"> | </span>
-            <span> 
-                主题 - 
-                <a rel="noopener" href='https://github.com/MaLuns/hexo-theme-async' target='_blank'>Async</a>
-                v1.1.1
-            </span>
+        <!-- 后续文章的发布年份呈现 -->
+        <div class="content-title">
+          <h2>
+            <span>2022</span>
+          </h2>
         </div>
       
-
-    
-        <div class="trm-footer-item">
-            has been running for <span id="since" class="trm-accent-color"></span> 天
-        </div>
-     
-
-     
-</footer>
-
-<script>
-    function show_date_time () {
-        BirthDay = new Date("10/08/2022 00:00:00");
-        today = new Date();
-        timeold = (today.getTime() - BirthDay.getTime());
-        msPerDay = 24 * 60 * 60 * 1000
-        day = Math.floor(timeold / msPerDay)
-        since.innerHTML = day
-    }
-    show_date_time()
-</script>
- 
-                    <!-- footer end -->
-
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-            <!-- body end -->
-          </div>
+      <div class="post-item" title="简单修改">
+        <div class="time-m-d">10-10</div>
+        <div class="title">
+          <a href="/20221010-fixed/">
+            <span>简单修改</span>
+          </a>
         </div>
       </div>
-      <!-- scroll container end -->
-
+    
+      <div class="post-item" title="艰难的开始">
+        <div class="time-m-d">10-08</div>
+        <div class="title">
+          <a href="/20221008-A%20tough%20beginning/">
+            <span>艰难的开始</span>
+          </a>
+        </div>
+      </div>
+    
   </div>
-  <!-- app wrapper end -->
-
-  <div id="trm-back-top" class="trm-back-top">
-    <i class="fas fa-arrow-up"></i>
 </div>
+
+        
+<div class="footer">
+  <div class="social">
+    <ul>
+      
+        <li>
+          <a title="github" target="_blank" rel="noopener" href="https://github.com/STK2666">
+            <i class="iconfont icon-github"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div>
   
-  <!-- Plugin -->
-
-
-
     
+    <div class="footer-more">
+      
+        <a target="_blank" rel="noopener" href="https://github.com/zchengsite/hexo-theme-oranges">Copyright © 2022 Oranges</a>
+        
+    </div>
+  
     
+    <div class="footer-more">
+      
+        <a target="_blank" rel="noopener" href="https://github.com/zchengsite/hexo-theme-oranges">Theme by Oranges | Powered by Hexo</a>
+        
+    </div>
+  
+  
+</div>
 
-    
-<script src="//cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+      </div>
 
-    
-<script src="//cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-
-
-    
-
-    
-
-    
-
-    
-
-
-
-<!-- 评论插件 -->
+      <div class="tools-bar">
+        <div class="back-to-top tools-bar-item hidden">
+  <a href="javascript: void(0)">
+    <i class="iconfont icon-chevronup"></i>
+  </a>
+</div>
 
 
-<!-- CDN -->
-
-
-    
-
-    
-
-    
+<script src="/js/backtotop.js"></script>
 
 
 
+        
+  <div class="search-icon tools-bar-item" id="search-icon">
+    <a href="javascript: void(0)">
+      <i class="iconfont icon-search"></i>
+    </a>
+  </div>
 
-    <!-- Service Worker -->
-    
-    <!-- baidu push -->
-    
+  <div class="search-overlay hidden">
+    <div class="search-content" tabindex="0">
+      <div class="search-title">
+        <span class="search-icon-input">
+          <a href="javascript: void(0)">
+            <i class="iconfont icon-search"></i>
+          </a>
+        </span>
+        
+          <input type="text" class="search-input" id="search-input" placeholder="Search...">
+        
+        <span class="search-close-icon" id="search-close-icon">
+          <a href="javascript: void(0)">
+            <i class="iconfont icon-close"></i>
+          </a>
+        </span>
+      </div>
+      <div class="search-result" id="search-result"></div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    var inputArea = document.querySelector("#search-input")
+    var searchOverlayArea = document.querySelector(".search-overlay")
+
+    inputArea.onclick = function() {
+      getSearchFile()
+      this.onclick = null
+    }
+
+    inputArea.onkeydown = function() {
+      if(event.keyCode == 13)
+        return false
+    }
+
+    function openOrHideSearchContent() {
+      let isHidden = searchOverlayArea.classList.contains('hidden')
+      if (isHidden) {
+        searchOverlayArea.classList.remove('hidden')
+        document.body.classList.add('hidden')
+        // inputArea.focus()
+      } else {
+        searchOverlayArea.classList.add('hidden')
+        document.body.classList.remove('hidden')
+      }
+    }
+
+    function blurSearchContent(e) {
+      if (e.target === searchOverlayArea) {
+        openOrHideSearchContent()
+      }
+    }
+
+    document.querySelector("#search-icon").addEventListener("click", openOrHideSearchContent, false)
+    document.querySelector("#search-close-icon").addEventListener("click", openOrHideSearchContent, false)
+    searchOverlayArea.addEventListener("click", blurSearchContent, false)
+
+    var searchFunc = function (path, search_id, content_id) {
+      'use strict';
+      var $input = document.getElementById(search_id);
+      var $resultContent = document.getElementById(content_id);
+      $resultContent.innerHTML = "<ul><span class='local-search-empty'>First search, index file loading, please wait...<span></ul>";
+      $.ajax({
+        // 0x01. load xml file
+        url: path,
+        dataType: "xml",
+        success: function (xmlResponse) {
+          // 0x02. parse xml file
+          var datas = $("entry", xmlResponse).map(function () {
+            return {
+              title: $("title", this).text(),
+              content: $("content", this).text(),
+              url: $("url", this).text()
+            };
+          }).get();
+          $resultContent.innerHTML = "";
+
+          $input.addEventListener('input', function () {
+            // 0x03. parse query to keywords list
+            var str = '<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length <= 0) {
+              return;
+            }
+            // 0x04. perform local searching
+            datas.forEach(function (data) {
+              var isMatch = true;
+              var content_index = [];
+              if (!data.title || data.title.trim() === '') {
+                data.title = "Untitled";
+              }
+              var orig_data_title = data.title.trim();
+              var data_title = orig_data_title.toLowerCase();
+              var orig_data_content = data.content.trim().replace(/<[^>]+>/g, "");
+              var data_content = orig_data_content.toLowerCase();
+              var data_url = data.url;
+              var index_title = -1;
+              var index_content = -1;
+              var first_occur = -1;
+              // only match artiles with not empty contents
+              if (data_content !== '') {
+                keywords.forEach(function (keyword, i) {
+                  index_title = data_title.indexOf(keyword);
+                  index_content = data_content.indexOf(keyword);
+
+                  if (index_title < 0 && index_content < 0) {
+                    isMatch = false;
+                  } else {
+                    if (index_content < 0) {
+                      index_content = 0;
+                    }
+                    if (i == 0) {
+                      first_occur = index_content;
+                    }
+                    // content_index.push({index_content:index_content, keyword_len:keyword_len});
+                  }
+                });
+              } else {
+                isMatch = false;
+              }
+              // 0x05. show search results
+              if (isMatch) {
+                str += "<li><a href='" + data_url + "' class='search-result-title'>" + orig_data_title + "</a>";
+                var content = orig_data_content;
+                if (first_occur >= 0) {
+                  // cut out 100 characters
+                  var start = first_occur - 20;
+                  var end = first_occur + 80;
+
+                  if (start < 0) {
+                    start = 0;
+                  }
+
+                  if (start == 0) {
+                    end = 100;
+                  }
+
+                  if (end > content.length) {
+                    end = content.length;
+                  }
+
+                  var match_content = content.substr(start, end);
+
+                  // highlight all keywords
+                  keywords.forEach(function (keyword) {
+                    var regS = new RegExp(keyword, "gi");
+                    match_content = match_content.replace(regS, "<span class=\"search-keyword\">" + keyword + "</span>");
+                  });
+
+                  str += "<p class=\"search-result-abstract\">" + match_content + "...</p>"
+                }
+                str += "</li>";
+              }
+            });
+            str += "</ul>";
+            if (str.indexOf('<li>') === -1) {
+              return $resultContent.innerHTML = "<ul><span class='local-search-empty'>No result<span></ul>";
+            }
+            $resultContent.innerHTML = str;
+          });
+        },
+        error: function(xhr, status, error) {
+          $resultContent.innerHTML = ""
+          if (xhr.status === 404) {
+            $resultContent.innerHTML = "<ul><span class='local-search-empty'>The search.xml file was not found, please refer to：<a href='https://github.com/zchengsite/hexo-theme-oranges#configuration' target='_black'>configuration</a><span></ul>";
+          } else {
+            $resultContent.innerHTML = "<ul><span class='local-search-empty'>The request failed, Try to refresh the page or try again later.<span></ul>";
+          }
+        }
+      });
+      $(document).on('click', '#search-close-icon', function() {
+        $('#search-input').val('');
+        $('#search-result').html('');
+      });
+    }
+
+    var getSearchFile = function() {
+        var path = "/search.xml";
+        searchFunc(path, 'search-input', 'search-result');
+    }
+  </script>
 
 
-<script id="async-script" src="/js/main.js?v=1.1.1"></script>
 
-</body>
 
+        
+  <div class="tools-bar-item theme-icon" id="switch-color-scheme">
+    <a href="javascript: void(0)">
+      <i id="theme-icon" class="iconfont icon-moon"></i>
+    </a>
+  </div>
+
+  
+<script src="/js/colorscheme.js"></script>
+
+
+
+
+
+        
+  
+  
+<script src="/js/shares.js"></script>
+
+
+
+      </div>
+    </div>
+  </body>
 </html>
