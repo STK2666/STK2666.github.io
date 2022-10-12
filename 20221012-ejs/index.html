@@ -11,6 +11,11 @@
   
   <title>
     
+      ejs学习 
+      
+      
+      |
+    
      Stk&#39;s Blog
   </title>
 
@@ -97,56 +102,143 @@
 
 
       <div class="flex-container">
-        <div class="container index">
-  <div class="post-list">
-    <!-- 遍历渲染文章 -->
-    
-      <div class="post-item" title="ejs学习">
-        <div class="time-m-d">2022-10-12</div>
-        <div class="title">
-          <a href="/20221012-ejs/">
-            
-              
-                <span>ejs学习</span>
-              
-            
-          </a>
-        </div>
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
+
+
+  <!-- LaTex Display -->
+
+  
+    <script async type="text/javascript" src="/plugins/mathjax/tex-chtml.js"></script>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    }
+  </script>
+
+
+
+
+
+  <!-- clipboard -->
+
+  
+    <script async type="text/javascript" src="/plugins/clipboard.min.js"></script>
+  
+  
+<script src="/js/codeCopy.js"></script>
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">ejs学习</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
+          2022-10-12 22:20:15
+        </span>
+        
+              <span class="post-tags">
+                <i class="iconfont icon-tags mr-10" title="Tags"></i>
+                
+                <span class="span--tag mr-8">
+                  <a href="/tags/Blog/" title="Blog">
+                    #Blog
+                  </a>
+                </span>
+                
+              </span>
+          
       </div>
-    
-      <div class="post-item" title="简单修改">
-        <div class="time-m-d">2022-10-10</div>
-        <div class="title">
-          <a href="/20221010-fixed/">
-            
-              
-                <span>简单修改</span>
-              
-            
-          </a>
-        </div>
+      <div class="markdown-body">
+        <h1 id="ejs学习"><a href="#ejs学习" class="headerlink" title="ejs学习"></a>ejs学习</h1><p>晚上简单了解了ejs的tag等基础，试着修改了模板中<strong>Post</strong>中多个日期的重复。</p>
+<p>P.S. Typora居然支持图语法，可以无需排版自动画图，draw.io who ?</p>
+<p>代码和预览如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```mermaid</span><br><span class="line">graph LR</span><br><span class="line">A[方形] --&gt;B(圆角)</span><br><span class="line">    B --&gt; C&#123;条件a&#125;</span><br><span class="line">    C --&gt;|a=1| D[结果1]</span><br><span class="line">    C --&gt;|a=2| E[结果2]</span><br><span class="line">    F[横向流程图]</span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">```flow</span><br><span class="line">st=&gt;start: 开始框</span><br><span class="line">op=&gt;operation: 处理框</span><br><span class="line">cond=&gt;condition: 判断框(是或否?)</span><br><span class="line">sub1=&gt;subroutine: 子流程</span><br><span class="line">io=&gt;inputoutput: 输入输出框</span><br><span class="line">e=&gt;end: 结束框</span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;io-&gt;e</span><br><span class="line">cond(no)-&gt;sub1(right)-&gt;op</span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">```sequence</span><br><span class="line">Title: 标题：复杂使用</span><br><span class="line">对象A-&gt;对象B: 对象B你好吗?（请求）</span><br><span class="line">Note right of 对象B: 对象B的描述</span><br><span class="line">Note left of 对象A: 对象A的描述(提示)</span><br><span class="line">对象B--&gt;对象A: 我很好(响应)</span><br><span class="line">对象B-&gt;小三: 你好吗</span><br><span class="line">小三--&gt;&gt;对象A: 对象B找我了</span><br><span class="line">对象A-&gt;对象B: 你真的好吗？</span><br><span class="line">Note over 小三,对象B: 我们是朋友</span><br><span class="line">participant C</span><br><span class="line">Note right of C: 没人陪我玩</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
       </div>
-    
-      <div class="post-item" title="艰难的开始">
-        <div class="time-m-d">2022-10-08</div>
-        <div class="title">
-          <a href="/20221008-A%20tough%20beginning/">
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
             
-              
-                <span>艰难的开始</span>
-              
+              <a href="/20221010-fixed/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>Prev</span>
+              </a>
             
-          </a>
+          </div>
+          <!-- <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
+              2022-10-12 22:20:15
+            </span>
+            
+                  <span class="post-tags">
+                    <i class="iconfont icon-tags mr-10" title="Tags"></i>
+                    
+                    <span class="span--tag mr-8">
+                      <a href="/tags/Blog/" title="Blog">
+                        #Blog
+                      </a>
+                    </span>
+                    
+                  </span>
+              
+          </div> -->
+          <div class="post-foot-prev">
+            
+          </div>
         </div>
+      
+    </div>
+    
+  <div id="btn-catalog" class="btn-catalog">
+    <i class="iconfont icon-catalog"></i>
+  </div>
+  <div class="post-catalog hidden" id="catalog">
+    <div class="title">Contents</div>
+    <div class="catalog-content">
+      
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#ejs%E5%AD%A6%E4%B9%A0"><span class="toc-text">ejs学习</span></a></li></ol>
+      
+    </div>
+  </div>
+
+  
+<script src="/js/catalog.js"></script>
+
+
+
+
+    
+      <div class="comments-container">
+        
+
+
+
+
+
+
+
       </div>
     
   </div>
-  <nav class="post-navigation">
-    
-    <span class="page-num">1 / 1</span>
-    
-  </nav>
-</div>
+
 
         
 <div class="footer">
@@ -401,6 +493,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + ejs%E5%AD%A6%E4%B9%A0 + '&url=' + https%3A%2F%2Fstk2666.github.io%2F20221012-ejs%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=https://stk2666.github.io/20221012-ejs/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>
