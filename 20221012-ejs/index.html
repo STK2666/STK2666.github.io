@@ -167,9 +167,9 @@
           
       </div>
       <div class="markdown-body">
-        <h1 id="ejs学习"><a href="#ejs学习" class="headerlink" title="ejs学习"></a>ejs学习</h1><p>晚上简单了解了ejs的tag等基础，试着修改了模板中<strong>Post</strong>中多个日期的重复。</p>
+        <h1 id="ejs学习"><a href="#ejs学习" class="headerlink" title="ejs学习"></a>ejs学习</h1><p>晚上简单了解了ejs的tag等基础，试着修改了模板中<code>Post</code>中多个日期的重复。<br>（困扰了我很久的效果原来是行内代码块，语法是`Post`）</p>
 <p>P.S. Typora居然支持图语法，可以无需排版自动画图，draw.io who ?</p>
-<p>代码和预览如下：</p>
+<p>代码如下：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```mermaid</span><br><span class="line">graph LR</span><br><span class="line">A[方形] --&gt;B(圆角)</span><br><span class="line">    B --&gt; C&#123;条件a&#125;</span><br><span class="line">    C --&gt;|a=1| D[结果1]</span><br><span class="line">    C --&gt;|a=2| E[结果2]</span><br><span class="line">    F[横向流程图]</span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">```flow</span><br><span class="line">st=&gt;start: 开始框</span><br><span class="line">op=&gt;operation: 处理框</span><br><span class="line">cond=&gt;condition: 判断框(是或否?)</span><br><span class="line">sub1=&gt;subroutine: 子流程</span><br><span class="line">io=&gt;inputoutput: 输入输出框</span><br><span class="line">e=&gt;end: 结束框</span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;io-&gt;e</span><br><span class="line">cond(no)-&gt;sub1(right)-&gt;op</span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">```sequence</span><br><span class="line">Title: 标题：复杂使用</span><br><span class="line">对象A-&gt;对象B: 对象B你好吗?（请求）</span><br><span class="line">Note right of 对象B: 对象B的描述</span><br><span class="line">Note left of 对象A: 对象A的描述(提示)</span><br><span class="line">对象B--&gt;对象A: 我很好(响应)</span><br><span class="line">对象B-&gt;小三: 你好吗</span><br><span class="line">小三--&gt;&gt;对象A: 对象B找我了</span><br><span class="line">对象A-&gt;对象B: 你真的好吗？</span><br><span class="line">Note over 小三,对象B: 我们是朋友</span><br><span class="line">participant C</span><br><span class="line">Note right of C: 没人陪我玩</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
       </div>
       
@@ -201,6 +201,11 @@
               
           </div> -->
           <div class="post-foot-prev">
+            
+              <a href="/20221014-LaTeX/" target="_self">
+                <span>Next</span>
+                <i class="iconfont icon-chevronright"></i>
+              </a>
             
           </div>
         </div>
